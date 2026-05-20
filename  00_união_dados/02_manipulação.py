@@ -37,6 +37,7 @@ sns.lineplot(df_ba.query("`Partido` == ['DEM/UNIÃO','MDB','PP','PSDB','PT']"),
              marker="o",
              ci=None)
 plt.legend(bbox_to_anchor=(1.05,1),loc="upper left")
+#plt.savefig("filiados.png",dpi=500)
 
 # %%
 df_pivot = (df_ba.query("Partido == ['DEM/UNIÃO','MDB','PP','PT','PSDB']")

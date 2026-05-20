@@ -17,3 +17,20 @@ pip install pandas seaborn matplotlib
 
 ## Análise dos Dados
 ### Série Histórica
+Com os dados levantados, nota-se o comportamento da população em relação a filiação partidária.
+Com os 5 maiores partidos, no início da série, em 2010, tem-se a seguinte organização:
+1º MDB
+2º PT
+3º PP
+4º PSDB
+5º DEM/UNIÃO*
+
+*Nota: Para realizar essa comparação, os dados do partido DEM e UNINÃO foram colocados juntos, pois o partdo UNIÃO nasce da união do DEM com PSL. Para fins de análise, foi adotado essa união.*
+
+Gráfico ![link:../01_gráficos/filiados.png]
+
+Com o passar do tempo, percebe-se um movimento de filiados. O ponto crítico que salta aos olhos é o comportamento de 2018 a 2022.
+
+Por uma análise estatística, conforme na tabela abaixo, nota-se o que os
+
+Tabela ![link:../01_gráficos/crescimento.png]
