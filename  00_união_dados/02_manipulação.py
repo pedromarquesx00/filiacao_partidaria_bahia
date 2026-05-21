@@ -21,14 +21,6 @@ df_ba["Partido"] = df_ba["Partido"].replace({
     "UNIÃO":"DEM/UNIÃO"
 })
 # %%
-top_5 = (df_ba.groupby("Partido")["Quantitativo de filiados"]
-         .sum()
-         .nlargest(5)
-         .index)
-# %%
-df_grafico = df_ba[df_ba["Partido"].isin(top_5)]
-
-# %%
 plt.title("Número de Filiados - Bahia (2010 - 2024)")
 sns.lineplot(df_ba.query("`Partido` == ['DEM/UNIÃO','MDB','PP','PSDB','PT']"),
              x="Ano de eleição",
@@ -37,7 +29,8 @@ sns.lineplot(df_ba.query("`Partido` == ['DEM/UNIÃO','MDB','PP','PSDB','PT']"),
              marker="o",
              ci=None)
 plt.legend(bbox_to_anchor=(1.05,1),loc="upper left")
-#plt.savefig("filiados.png",dpi=500)
+plt.tight_layout()
+plt.savefig("filiados.png",dpi=500)
 
 # %%
 df_pivot = (df_ba.query("Partido == ['DEM/UNIÃO','MDB','PP','PT','PSDB']")
