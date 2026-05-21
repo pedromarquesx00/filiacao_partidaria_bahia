@@ -21,6 +21,7 @@ df_ba["Partido"] = df_ba["Partido"].replace({
     "UNIÃO":"DEM/UNIÃO"
 })
 # %%
+plt.figure(figsize=(10,6))
 plt.title("Número de Filiados - Bahia (2010 - 2024)")
 sns.lineplot(df_ba.query("`Partido` == ['DEM/UNIÃO','MDB','PP','PSDB','PT']"),
              x="Ano de eleição",
