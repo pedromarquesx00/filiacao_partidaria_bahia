@@ -27,7 +27,7 @@ Com os 5 maiores partidos, no início da série, em 2010, tem-se a seguinte orga
 
 *Note: Para garantir a consistência e a integridade histórica da análise, os dados das siglas DEM e UNIÃO foram consolidados em uma única linha de tendência. Como o partido União Brasil nasceu da fusão do DEM com o PSL em 2022, essa unificação metodológica foi adotada para refletir a continuidade de sua base estrutural.*
 
-![Gráfico](../01_gráficos/filiados.png)
+![Gráfico](01_gráficos/filiados.png)
 
 ### Movimentações e Insights
 Com o avanço dos anos, o gráfico revela três fenômenos políticos:
@@ -37,7 +37,7 @@ Com o avanço dos anos, o gráfico revela três fenômenos políticos:
 
 Para validar matematicamente o ritmo dessas transformações, foi calculada a taxa de crescimento percentual período a período (YoY - Year over Year), conforme apresentado na tabela abaixo:
 
-![Tabela de Crescimento](../01_gráficos/crescimento.png)
+![Tabela de Crescimento](01_gráficos/crescimento.png)
 
 ## Próximos passos
 - [ ] Cruzar o volume de filiados ativos com o número real de prefeituras conquistadas por cada partido nas eleições de 2012, 2016, 2020 e 2024 para medir a eficiência de conversão (Filiados vs. Poder Local).
