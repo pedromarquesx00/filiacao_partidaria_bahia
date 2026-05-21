@@ -19,18 +19,22 @@ pip install pandas seaborn matplotlib
 ### Série Histórica
 Com os dados levantados, nota-se o comportamento da população em relação a filiação partidária.
 Com os 5 maiores partidos, no início da série, em 2010, tem-se a seguinte organização:
-1º MDB
-2º PT
-3º PP
-4º PSDB
-5º DEM/UNIÃO*
+1. MDB (Líder absoluto, próximo a marca de 95.000 filiados)
+2. PT (Segundo lugar, na casa dos 72.000 filiados)
+3. PP (Terceira força, estável perto dos 68.000 filiados)
+4. PSDB (Quarta força, por volta de 58.000 filiados)
+5. DEM/UNIÃO* (Quinta força, fechando o grupo dos grandes)
 
-*Nota: Para realizar essa comparação, os dados do partido DEM e UNINÃO foram colocados juntos, pois o partdo UNIÃO nasce da união do DEM com PSL. Para fins de análise, foi adotado essa união.*
+*Note: Para garantir a consistência e a integridade histórica da análise, os dados das siglas DEM e UNIÃO foram consolidados em uma única linha de tendência. Como o partido União Brasil nasceu da fusão do DEM com o PSL em 2022, essa unificação metodológica foi adotada para refletir a continuidade de sua base estrutural.*
 
 Gráfico ![link:../01_gráficos/filiados.png]
+### Movimentações e Insights
+Com o avanço dos anos, o gráfico revela três fenômenos políticos:
+1. A ultrapassem do PT (2020-2022): Ao longo do tempo, o PT mantinha uma curva de crescimento com um pico de 2010 para 2012, e manteve um crescimento orgânico do longo do tempo. o MDB tem certa estabilidade, entretanto, de 2018 até 2022, somam uma queda de aproximadamente 17%, colocando o PT em primeiro lugar.
+2. A volatilidade do PSDB (2016-2018): O partido apresenta uma queda abrupa de -25,13%. O que pode indicar a sensibilidade do partido às janelas partidárias e ao cenário político nacional da época refletida no estado baiano.
+3. O efeito da fusão: Com a junção entre o partido DEM e PSL para criar o UNIÃO, nota-se a popularidade e capilaridade da junção partidária. Com um aumento de 105,47%, DEM/UNIÃO ocupa o segudo lugar de partidos com mais filiados.
 
-Com o passar do tempo, percebe-se um movimento de filiados. O ponto crítico que salta aos olhos é o comportamento de 2018 a 2022.
-
-Por uma análise estatística, conforme na tabela abaixo, nota-se o que os
-
+Para validar matematicamente o ritmo dessas transformações, foi calculada a taxa de crescimento percentual período a período (YoY - Year over Year), conforme apresentado na tabela abaixo:
 Tabela ![link:../01_gráficos/crescimento.png]
+
+### Hipóteses
